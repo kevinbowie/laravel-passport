@@ -25,7 +25,7 @@ After that I add mysql to docker-compose, and still found issue for MYSQL_ROOT_H
 
 ## How To Use
 
--   Prepare another apps for testing Oauth.
+-   Prepare another apps for testing Oauth, or you can clone from my repository of https://github.com/kevinbowie/laravel-resend.
 -   Clone this project as usual and prepare the .env.
 -   If you already have root user in mysql, comment out the MYSQL_ROOT_HOST else uncomment it. After that, run ./vendor/bin/sail up.
 -   You can set your shortcut for bin since you will use it frequently. I also create Makefile for easier shortcut.
